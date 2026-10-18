@@ -1,6 +1,6 @@
 # GitHub Repo Exporter
 
-A small command-line tool that takes a GitHub username, downloads all of that user's public repositories, saves them to a CSV file you can open in Excel, and shows the most-starred ones.
+Turn any GitHub account into a spreadsheet: this tool downloads every public repository for a username, saves the results to a CSV file you can open in Excel, and shows the most-starred ones.
 
 ## What it does
 
@@ -13,7 +13,7 @@ A small command-line tool that takes a GitHub username, downloads all of that us
 
 ## Requirements
 
-- Python 3.15 or newer
+- Python 3 (tested on Python 3.15; should work on any recent Python 3 version)
 - The `requests` library
 
 ## How to run
